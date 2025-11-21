@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package controlador;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import vista.IUVentasCreditoConcesionario;
+
+/**
+ *
+ * @author Usuario
+ */
+
+/**
+ * Controlador que gestiona la vista de ventas a crédito realizadas por el concesionario.
+ */
+
+public class ControladorVentasCreditoConcesionario implements ActionListener{
+    private IUVentasCreditoConcesionario vista;
+    
+
+public  ControladorVentasCreditoConcesionario (IUVentasCreditoConcesionario vista){
+    this.vista = vista;
+    vista.setVisible(true);
+        
+}
+
+    @Override
+    public void actionPerformed(ActionEvent ae) {
+       
+    }
+  
+ }
